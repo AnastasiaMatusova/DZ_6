@@ -14,11 +14,8 @@ int[] arrayM(int m)
         array[i] = Convert.ToInt32(Console.ReadLine());
     }
     return array;
-
 }
-
 int[] newArray = arrayM(m);
-
 int result(int[] array)
 {
     int count = 0;
