@@ -10,7 +10,7 @@ int[] arrayM(int m)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        System.Console.Write($"Введите чило {i + 1}: ");
+        Console.Write($"Введите чило {i + 1}: ");
         array[i] = Convert.ToInt32(Console.ReadLine());
     }
     return array;
